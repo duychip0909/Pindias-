@@ -2,8 +2,18 @@ body {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 header .header-bg {
-    background: url(/img/Header-background.jpg) no-repeat center center / cover;
+    background: url(img/Header-background.jpg) no-repeat center center / cover;
     height: 100vh;
+}
+header .header-Heading::after {
+    content: "";
+    background: #fff;
+    height: 6px;
+    width: 150px;
+    position: absolute;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
 }
 header .header-bg .header-menu {
     height: 100%;

@@ -1,0 +1,40 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+header .header-bg {
+    background: url(/img/Header-background.jpg) no-repeat center center / cover;
+    height: 100vh;
+}
+header .header-bg .header-menu {
+    height: 100%;
+    width: 100%;
+}
+header {
+    max-width: auto;
+}
+.header-Heading {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 72px;
+}
+header .header-btn a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    background: linear-gradient(to right, #68078a, #890083);
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0 25px;
+}
+header .header-menu h1, header .header-menu h3, header .header-menu .header-btn {
+    padding: 0 0 80px;
+    margin: 0;
+} 
+#pindias-homepage {
+    background: #e6e6e6;
+}
+section {
+    padding: 80px 0;
+}

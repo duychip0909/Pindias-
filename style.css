@@ -1,9 +1,18 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 header .header-bg {
     background: url(img/Header-background.jpg) no-repeat center center / cover;
     height: 100vh;
+}
+.header-Heading {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 72px;
 }
 header .header-Heading::after {
     content: "";
@@ -21,11 +30,6 @@ header .header-bg .header-menu {
 }
 header {
     max-width: auto;
-}
-.header-Heading {
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 72px;
 }
 header .header-btn a {
     text-decoration: none;
@@ -47,4 +51,132 @@ header .header-menu h1, header .header-menu h3, header .header-menu .header-btn 
 }
 section {
     padding: 80px 0;
+}
+.urRealEstate-Heading {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 50px;
+    background: -webkit-linear-gradient(#68078a, #890083);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#pindias-homepage .header-Heading::after {
+    content: "";
+    background: #fff;
+    height: 6px;
+    width: 150px;
+    position: absolute;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#pindias-homepage .urRealEstate-content {
+    background: #fff;
+}
+#pindias-homepage .urRealEstate .villa-list .villa {
+    position: relative;
+    margin: 20px 20px;
+}
+#pindias-homepage .urRealEstate .villa-list .villa::before {
+    content: "";
+    background: #990066;
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 12px;
+    height: 65px;
+    top: 70%;
+}
+#pindias-homepage .urRealEstate .villa-list .villa .villa-content {
+    position: absolute;
+    z-index: 3;
+    background: rgba(153, 0, 102, 0.5);
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    top: 70%;
+    left: 12px;
+    width: 70%;
+    height: 65px;
+    margin: 0;
+}
+#pindias-homepage .urRealEstate .villa-list .villa .villa-content .title {
+    font-size: 18px;
+    font-weight: 700;
+}
+#pindias-homepage .urRealEstate .villa-list .villa .villa-content .content {
+    font-size: 16px;
+    font-weight: 400;
+}
+#pindias-homepage .jointInvest .jointInvest-banner {
+    background: url(img/jointInvest-banner.jpg) no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#pindias-homepage .jointInvest .jointInvest-banner {
+    padding-bottom: 40px;
+}
+#pindias-homepage .jointInvest .jointInvest-banner .banner-content {
+    padding: 55px 0;
+}
+#pindias-homepage .jointInvest .jointInvest-banner .banner-content .join-btn-wrap .join-btn {
+    color: #660066;
+    background: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+#pindias-homepage .jointInvest .jointInvest-banner .banner-content .join-btn-wrap {
+    padding-top: 36px;
+}
+#pindias-homepage .jointInvest .jointInvest-banner .jointInvest-banner-heading {
+    font-size: 48px;
+    font-weight: 800;
+}
+#pindias-homepage .jointInvest .jointInvest-banner .jointInvest-banner-subHeading {
+    font-size: 36px;
+    font-weight: 400;
+}
+#pindias-homepage .jointInvest .jointInvest-banner .jointInvest-banner-subHeading::after {
+    content: "";
+    background: #fff;
+    height: 4px;
+    width: 173px;
+    position: absolute;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70px;
+}
+#pindias-homepage .jointInvest-list .building-list .building {
+    position: relative;
+    margin: 20px 20px;
+}
+
+#pindias-homepage .jointInvest-list .building-list .building .building-content {
+    position: absolute;
+    z-index: 3;
+    background: rgba(153, 0, 102, 0.5);
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    top: 70%;
+    left: 12px;
+    width: 70%;
+    height: 65px;
+    margin: 0;
+}
+#pindias-homepage .jointInvest-list .building-list .building::before {
+    content: "";
+    background: #990066;
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 12px;
+    height: 65px;
+    top: 70%;
 }

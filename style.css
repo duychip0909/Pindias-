@@ -180,3 +180,67 @@ section {
     height: 65px;
     top: 70%;
 }
+#pindias-homepage .project-list {
+    background: #43045b no-repeat center center / cover;
+    max-width: 100%;
+    height: auto;
+    padding: 0 20px;
+}
+#pindias-homepage .project-list .project-top {
+    background: linear-gradient(to right, #600681, #82047c) top center / cover;
+    height: 80px;
+    width: 100%;
+}
+#pindias-homepage .project-list .project-top .prev-next {
+    color: #fff;
+    margin: 0 20px;
+}
+#pindias-homepage .project-list .project-top h3 {
+    display: inline-block;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    background: linear-gradient(to right, #600681, #80007a);
+    padding: 5px 50px;
+}
+#pindias-homepage .project-list .project-top p {
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    background: #b2007a;
+    padding: 10px 10px;
+    text-transform: uppercase;
+}
+#pindias-homepage .project-list .project-top i {
+    background: #b2007a;
+    padding: 13px 17px;
+    display: inline-block;
+}
+#pindias-homepage .project-list .project-top .PRJ {
+    background: #4f056a;
+    padding: 16px 16px;
+}
+#pindias-homepage .project-list .project-top .PRJ-more {
+    padding-right: 20px;
+}
+#pindias-homepage .project-list .project-bottom .project-list-content .project-content {
+    background: #fff;
+    color: #58595b;
+    height: 100%;
+    padding: 40px 60px;
+}
+#pindias-homepage .project-list .project-bottom .project-list-content .project-content h3 {
+    font-size: 30px;
+    font-weight: 700;
+
+}
+#pindias-homepage .project-list .project-bottom .project-list-content .project-content h3::before {
+    content: "";
+    background: #920071;
+    position: absolute;
+    height: 65px;
+    width: 10px;
+    /* left: -16px;
+    top: 5px;
+} */

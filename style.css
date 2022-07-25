@@ -228,19 +228,131 @@ section {
     background: #fff;
     color: #58595b;
     height: 100%;
-    padding: 40px 60px;
+    padding: 0 20px 0 20px;
 }
 #pindias-homepage .project-list .project-bottom .project-list-content .project-content h3 {
     font-size: 30px;
     font-weight: 700;
-
+    padding-left: 15px;
+    padding-bottom: 20px;
+    margin: 0;
 }
-#pindias-homepage .project-list .project-bottom .project-list-content .project-content h3::before {
+#pindias-homepage .project-list .project-bottom .project-list-content .project-content::before {
     content: "";
     background: #920071;
     position: absolute;
-    height: 65px;
+    height: 60px;
     width: 10px;
-    /* left: -16px;
-    top: 5px;
-} */
+    top: 11px;
+}
+#pindias-homepage .project-list .project-top p::after {
+    content: "";
+    position: absolute;
+    color: black;
+    height: 5px;
+    width: 50px;
+}
+#pindias-homepage .project-list .project-bottom .project-list-content .project-info1 {
+    margin-right: 13px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    border: 10px solid #800079;
+}
+#pindias-homepage .project-list .project-bottom .project-list-content .detail-btn {
+    position: absolute;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 45%;
+    background: linear-gradient(to right, #600681, #80007a);
+    border-radius: 5px;
+    padding: 12px 27px;
+    opacity: 0;
+}
+#pindias-homepage .project-list .project-bottom .project-list-content .project-info1:hover, #pindias-homepage .project-list .project-bottom .project-list-content .project-info2:hover > .detail-btn {
+    background: purple;
+    opacity: 0.5;   
+}
+#pindias-homepage .project-list .project-bottom .project-list-content .more-info-hover:hover .detail-btn {
+    opacity: 1;
+}
+#pindias-homepage .project-list .project-bottom .project-list-content .project-info2 {
+    margin-left: 13px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    border: 10px solid #800079;
+}
+#pindias-homepage .news {
+    padding: 80px 32px;
+}
+#pindias-homepage .news .news-top {
+    background: url(img/jointInvest-under-banner.jpg) no-repeat center / cover;
+    width: 100%;
+    height: auto;
+    border: 1px solid #bcbec0;
+}
+#pindias-homepage .news .news-top .news-news {
+    border: 1px solid #80007a;
+    padding: 15px 18px;
+    background: #fff;
+    display: inline-block;
+}
+#pindias-homepage .news .news-top .news-news h3 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #fff;
+    background: linear-gradient(to right, #600681, #80007a);
+    padding: 5px 75px;
+    vertical-align: middle;
+}
+#pindias-homepage .news .news-top .all-news h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #80007a;
+    padding: 10px 15px;
+    vertical-align: middle;
+    border: 1px solid #bcbec0;
+    display: inline-block;
+    background: #fff;
+}
+#pindias-homepage .news .news-top .all-news {
+    padding-right: 19px;
+}
+#pindias-homepage .news .content {
+    background: #fff;
+    padding: 65px 40px ;
+    width: 50%;
+}
+#pindias-homepage .news .content .content-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #58595b;
+}
+#pindias-homepage .news .content .content-content {
+    font-size: 18px;
+    font-weight: 400;
+    color: #636466;
+    padding-left: 25px;
+    line-height: 1.1;
+}
+#pindias-homepage .news .content .content-content::before {
+    content: "";
+    background: #920071;
+    width: 10px;
+    height: 270px;
+    position: absolute;
+    display: inline-block;
+    left: 0;
+}
+#pindias-homepage .news .news-img {
+    width: 50%;
+}
+#pindias-homepage .news .content a {
+    background: linear-gradient(to right, #600681, #80007a);
+    padding: 10px 25px;
+    border-radius: 5px;
+}

@@ -425,3 +425,38 @@ section {
 #pindias-homepage .partner .partner-logo div:nth-child(-n+5) {
     border-right: 1px solid #bcbec0;
 }
+#pindias-homepage .info-receive {
+    background: linear-gradient(to right, #660099, #990066);
+    width: 100%;
+    height: auto;
+}
+#pindias-homepage .info-receive .info-content {
+    font-size: 24px;
+}
+#pindias-homepage .info-receive .info-input-form .input-group {
+    margin-left: 70px;
+    padding: 45px 0;
+}
+#pidias-homepage .info-receive .info-input-form .input-group .input-group-text {
+    background: #610682;
+}
+#pindias-homepage .sub-footer {
+    background: #fff;
+    width: 100%;
+    height: auto;
+}
+#pindias-homepage .menu-top .sub-footer .connect-with-me ul li {
+    list-style: none;
+    padding: 0 25px;
+}
+#pindias-homepage .sub-footer h4 {
+    text-transform: uppercase;
+    color: #660066;
+    font-size: 20px;
+    font-weight: bold;
+}
+#pindias-homepage .sub-footer .navigate .nav-content ul {
+    color: #666666;
+    font-size: 18px;
+    font-weight: 400;
+}

@@ -100,6 +100,60 @@ section {
     height: 65px;
     margin: 0;
 }
+#pindias-homepage .urRealEstate .urRealEstate-content .villa .show-info {
+    position: absolute;
+    color: #fff;
+    text-transform: uppercase;
+    opacity: 0;
+    left: 8px;
+    top: 65px;
+}
+#pindias-homepage .jointInvest .jointInvest-list .building .show-info {
+    position: absolute;
+    color: #fff;
+    text-transform: uppercase;
+    opacity: 0;
+    left: 14px;
+    top: 40px;
+    text-align: start;
+}
+#pindias-homepage .jointInvest .jointInvest-list .building img {
+    background: url(img/matrix-bg.png) no-repeat center center / cover;
+    width: 100%;
+    height: 100%;
+}
+#pindias-homepage .jointInvest-list .building-list .building:hover .building-content {
+    opacity: 0;
+}
+#pindias-homepage .jointInvest-list .building-list .building:hover:before {
+    opacity: 0;
+}
+
+#pindias-homepage .urRealEstate .urRealEstate-content .villa .show-info .detail-btn, #pindias-homepage .jointInvest .jointInvest-list .building .show-info .detail-btn  {
+    color: #610977;
+    background: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 10px 14px;
+}
+#pindias-homepage .urRealEstate .urRealEstate-content .villa .show-info h3, #pindias-homepage .urRealEstate .urRealEstate-content .villa .show-info p {
+    left: 50px;
+}
+#pindias-homepage .urRealEstate .urRealEstate-content .villa .show-info .sub-title::before {
+    content: "";    
+    background: #fff;
+    position: absolute;
+    height: 1px;
+    width: 98%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 41%;
+    display: block;
+}
+#pindias-homepage .urRealEstate .urRealEstate-content .villa .show-info .detail-villa ul li {
+    list-style: none;
+}
 #pindias-homepage .urRealEstate .villa-list .villa .villa-content .title {
     font-size: 18px;
     font-weight: 700;
@@ -108,9 +162,25 @@ section {
     font-size: 16px;
     font-weight: 400;
 }
-#pindias-homepage .urRealEstate .urRealEstate-content .villa:hover img {
-  background: #600681;
-  color: #600681;
+#pindias-homepage .urRealEstate .urRealEstate-content .villa::after, #pindias-homepage .jointInvest .jointInvest-list .building::after {
+    background: #920071;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+#pindias-homepage .urRealEstate .urRealEstate-content .villa:hover::after, #pindias-homepage .jointInvest .jointInvest-list .building:hover::after {
+    opacity: 0.5;
+}
+#pindias-homepage .urRealEstate .urRealEstate-content .villa:hover .show-info, #pindias-homepage .jointInvest .jointInvest-list .building:hover .show-info {
+    z-index: 3;
+    opacity: 1;
+}
+#pindias-homepage .urRealEstate .urRealEstate-content .villa:hover .villa-content, #pindias-homepage .urRealEstate .urRealEstate-content .villa:hover::before {
+    opacity: 0;
 }
 #pindias-homepage .jointInvest .jointInvest-banner {
     background: url(img/jointInvest-banner.jpg) no-repeat;

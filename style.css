@@ -108,6 +108,10 @@ section {
     font-size: 16px;
     font-weight: 400;
 }
+#pindias-homepage .urRealEstate .urRealEstate-content .villa:hover img {
+  background: #600681;
+  color: #600681;
+}
 #pindias-homepage .jointInvest .jointInvest-banner {
     background: url(img/jointInvest-banner.jpg) no-repeat;
     width: 100%;
@@ -459,4 +463,58 @@ section {
     color: #666666;
     font-size: 18px;
     font-weight: 400;
+}
+#pindias-homepage .sub-footer .navigate .nav-title h4::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 70%;
+    background: #5e0b7b;
+    right: 2%;  
+    top: 50%;
+}
+#pindias-homepage .sub-footer {
+    padding: 70px 0;
+}
+#pindias-homepage .sub-footer .connect-with-me h4::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 35%;
+    background: #5e0b7b;
+    top: 50%;
+    right: 2%;
+}
+#pindias-homepage .sub-footer .connect-with-me .social::after {
+    content: "";
+    position: absolute;
+    width: 99%;
+    height: 1px;
+    background: #5e0b7b;
+}
+#pindias-homepage .sub-footer .p1, #pindias-homepage .sub-footer .p2, #pindias-homepage .sub-footer .p3, #pindias-homepage .sub-footer .p4 {
+    padding: 0 40px;
+}
+#pindias-homepage .sub-footer .certificate {
+    padding-top: 20px;
+}
+#pindias-homepage .sub-footer .download .appstore-lg, #pindias-homepage .sub-footer .download .ggplay-lg {
+    padding-bottom: 25px;
+}
+footer .info-footer {
+    background: #4c4c4c;
+    width: 100%;
+    height: auto;
+}
+footer .info-title h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+footer .infomation .address {
+    font-size: 18px;
+    font-weight: 400;
+}
+footer .information .link ul li, footer .information .infoo ul li {
+    list-style: none;
+    color: #fff;
 }

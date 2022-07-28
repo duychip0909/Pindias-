@@ -365,7 +365,7 @@ section {
     padding: 80px 32px;
 }
 #pindias-homepage .news .news-top {
-    background: url(img/jointInvest-under-banner.jpg) no-repeat center / cover;
+    background: url(img/jointInvest-under-banner.jpg) no-repeat content-box;
     width: 100%;
     height: auto;
     border: 1px solid #bcbec0;
@@ -399,29 +399,22 @@ section {
 }
 #pindias-homepage .news .content {
     background: #fff;
-    padding: 65px 40px ;
+    padding: 40px 30px ;
     width: 50%;
 }
 #pindias-homepage .news .content .content-title {
-    font-size: 30px;
+    font-size: 27px;
     font-weight: bold;
     color: #58595b;
 }
 #pindias-homepage .news .content .content-content {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     color: #636466;
-    padding-left: 25px;
+    margin: 50px 0 0 0;
     line-height: 1.1;
-}
-#pindias-homepage .news .content .content-content::before {
-    content: "";
-    background: #920071;
-    width: 10px;
-    height: 270px;
-    position: absolute;
-    display: inline-block;
-    left: 0;
+    border-left: 11px solid #920071;
+    padding-left: 25px;
 }
 #pindias-homepage .news .news-img {
     width: 50%;
@@ -431,21 +424,53 @@ section {
     padding: 10px 25px;
     border-radius: 5px;
 }
+#pindias-homepage .news-bottom .wrapper .wrapper-content h3, #pindias-homepage .news-bottom .wrapper .wrapper-content p {
+    line-height: 1.1;
+}
+#pindias-homepage .news-bottom .wrapper .wrapper-content h3 {
+    border-left: 3px solid #80007a;
+}
+#pindias-homepage .news-bottom .wrapper .wrapper-content {
+    align-self: center;
+    padding: 10px;
+}
 #pindias-homepage .right .right-news-img {
     width: 40%;
 }
+#pindias-homepage .news-bottom .left-content .news-btn {
+    padding-top: 50px;
+}
 #pindias-homepage .right .wrapper {
     background: #fff;
+    position: relative;
+}
+#pindias-homepage .right .wrapper:hover:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #80007a80;
+}
+#pindias-homepage .right .wrapper:hover .wrapper-content h3, #pindias-homepage .right .wrapper:hover .wrapper-content p {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+#pindias-homepage .right .wrapper:hover .wrapper-content h3 {
+    border-left: 3px solid #fff;
 }
 #pindias-homepage .right .wrapper-content h3 {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
     color: #58595b;
+    padding-left: 7px;
 }
 #pindias-homepage .right .wrapper-content p {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     color: #6e6f71;
+    margin: 0;
+    padding-left: 10px;
 }
 #pindias-homepage .news-bottom {
     padding-top: 40px;
@@ -489,16 +514,35 @@ section {
 #pindias-homepage .partner {
     background: #fff;
 }
+#pindias-homepage .partner .partner-logo div:nth-child(n+1):hover::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 10px solid purple;
+    background: #80007f80;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #610682, #800079);
+}
 #pindias-homepage .partner .partner-logo {
-    border: 1px solid #bcbec0;
     margin-top: 40px;
 }
-#pindias-homepage .partner .partner-logo div>:nth-child(n+1) {
-    padding: 15px 75px;
-    display: inline-block;
+#pindias-homepage .partner .partner-logo div:nth-child(n+1) {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    padding: 10px 0;
 }
 #pindias-homepage .partner .partner-logo div:nth-child(-n+5) {
     border-right: 1px solid #bcbec0;
+}
+
+#pindias-homepage .partner .partner-logo {
+    border: 1px solid #bcbec0;
 }
 #pindias-homepage .info-receive {
     background: linear-gradient(to right, #660099, #990066);

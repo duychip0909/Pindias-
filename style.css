@@ -129,7 +129,15 @@ section {
     opacity: 0;
 }
 
-#pindias-homepage .urRealEstate .urRealEstate-content .villa .show-info .detail-btn, #pindias-homepage .jointInvest .jointInvest-list .building .show-info .detail-btn  {
+#pindias-homepage .urRealEstate .urRealEstate-content .villa .show-info .detail-btn {
+    color: #610977;
+    background: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 10px 14px;
+}
+#pindias-homepage .jointInvest .jointInvest-list .building .show-info .detail-btn  {
     color: #610977;
     background: #fff;
     font-size: 20px;
@@ -301,23 +309,14 @@ section {
 #pindias-homepage .project-list .project-bottom .project-list-content .project-content {
     background: #fff;
     color: #58595b;
-    height: 100%;
-    padding: 0 20px 0 20px;
+    padding: 20px;
 }
 #pindias-homepage .project-list .project-bottom .project-list-content .project-content h3 {
     font-size: 30px;
     font-weight: 700;
     padding-left: 15px;
-    padding-bottom: 20px;
+    border-left: 10px solid #920071;
     margin: 0;
-}
-#pindias-homepage .project-list .project-bottom .project-list-content .project-content::before {
-    content: "";
-    background: #920071;
-    position: absolute;
-    height: 60px;
-    width: 10px;
-    top: 11px;
 }
 #pindias-homepage .project-list .project-top p::after {
     content: "";
@@ -326,19 +325,15 @@ section {
     height: 5px;
     width: 50px;
 }
-#pindias-homepage .project-list .project-bottom .project-list-content .project-info1 {
-    margin-right: 13px;
-    margin-top: 26px;
-    margin-bottom: 26px;
-    border: 10px solid #800079;
+#pindias-homepage .project-bottom .project-list-content .project-img, #pindias-homepage .project-bottom .project-list-content .project-content {
+    max-width: 50%;
 }
-#pindias-homepage .project-list .project-bottom .project-list-content .detail-btn {
+#pindias-homepage .project-list .project-bottom .detail-btn {
     position: absolute;
     text-decoration: none;
     font-size: 20px;
     font-weight: 400;
     color: #fff;
-    display: inline-block;
     left: 50%;
     transform: translateX(-50%);
     top: 45%;
@@ -346,19 +341,25 @@ section {
     border-radius: 5px;
     padding: 12px 27px;
     opacity: 0;
+    z-index: 3;
 }
-#pindias-homepage .project-list .project-bottom .project-list-content .project-info1:hover, #pindias-homepage .project-list .project-bottom .project-list-content .project-info2:hover > .detail-btn {
-    background: purple;
-    opacity: 0.5;   
+#pindias-homepage .project-bottom .project-list-content .project-info:hover:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 10px solid purple;
+    background: #80007f80;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #610682, #800079);
 }
-#pindias-homepage .project-list .project-bottom .project-list-content .more-info-hover:hover .detail-btn {
+#pindias-homepage .project-bottom .project-list-content .project-info1:hover a, #pindias-homepage .project-bottom .project-list-content .project-info2:hover a  {
     opacity: 1;
 }
-#pindias-homepage .project-list .project-bottom .project-list-content .project-info2 {
-    margin-left: 13px;
-    margin-top: 26px;
-    margin-bottom: 26px;
-    border: 10px solid #800079;
+#pindias-homepage .project-list .project-bottom .project-list-content .project-info2, #pindias-homepage .project-list .project-bottom .project-list-content .project-info1 {
+    margin: 40px 0;
 }
 #pindias-homepage .news {
     padding: 80px 32px;

@@ -64,19 +64,57 @@
     </header>
     <div id="pindias-homepage">
         <div class="menu-top">
-            <section class="nav-menu"></section>
+            <section class="nav-menu">
+                <div class="container-fluid">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-6">
+                            <div class="search-bar">
+                                <div class="radio-btn bg-light d-inline-block">
+                                    <input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked>
+                                    <label class="btn btn-outline-success text-uppercase" for="success-outlined">Mua bán</label>
+                                    <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
+                                    <label class="btn btn-outline-success text-uppercase" for="danger-outlined">Cho thuê</label>
+                                </div>
+                                <nav class="navbar bg-light d-flex">
+                                        <div class="wrapper d-flex align-items-center w-100 justify-content-between ms-3">
+                                            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                                            <input class="form-control me-2" type="search" placeholder="Tìm kiếm địa chỉ, tỉnh, thành phố" aria-label="Search">
+                                      <form class="d-flex align-items-center" role="search">
+                                        <i class="fa-solid fa-microphone fa-2xl"></i>
+                                        <button class="btn-search" type="submit">Tìm kiếm</button>
+                                      </form>
+                                    </div>
+                                  </nav>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="advertise">
+                                <a href="#"><img src="img/adver.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <div class="urRealEstate">
                 <section class="urRealEstate-content text-center">
                     <div class="container-fluid">
                         <h1 class="urRealEstate-Heading position-relative">bất động sản cho bạn</h1>
-                        <section class="pickBar">
-                            <input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked>
-                            <label class="btn btn-outline-success" for="success-outlined">Mua bán</label>
-
-                            <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
-                            <label class="btn btn-outline-danger" for="danger-outlined">Cho thuê</label>
-                        </section>
-                        <div class="row g-0 villa-list">
+                        <div class="pickBar d-flex align-items-center justify-content-between">
+                            <div class="custom-radio-btn">
+                                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked>
+                                <label class="btn btn-outline-success text-uppercase" for="success-outlined">Mua bán</label>
+                                <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
+                                <label class="btn btn-outline-success text-uppercase" for="danger-outlined">Cho thuê</label>
+                            </div>
+                            <div class="dropdown-btn">
+                                <ul class="d-flex align-items-center justify-content-center m-0">
+                                    <li><a href="#">XEM TẤT CẢ</a></li>
+                                    <li><a href="#">MỚI NHẤT</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-caret-down"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row villa-list">
                             <div class="col-3">
                                 <div class="villa villa-1 position-relative">
                                     <div class="show-info d-inline-block">
@@ -261,7 +299,7 @@
                 </div>
                 <div class="jointInvest-list">
                     <div class="container-fluid">
-                        <div class="row g-0 building-list">
+                        <div class="row building-list">
                             <div class="col-3">
                                 <div class="building position-relative">
                                     <div class="show-info">

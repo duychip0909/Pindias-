@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+}
+* img {
     max-width: 100%;
 }
 body {
@@ -70,9 +72,61 @@ section {
     left: 50%;
     transform: translateX(-50%);
 }
+#pindias-homepage .search-bar .navbar .wrapper .fa-magnifying-glass {
+    color: #828282;
+    margin-right: 15px;
+}
+#pindias-homepage .search-bar .navbar form .fa-microphone {
+    color: purple;
+}
+#pindias-homepage .search-bar .navbar .wrapper .form-control {
+    border: 1px solid rgba(0 , 0, 0, 0);
+    border-radius: 0;
+    background-color: transparent;
+}
+#pindias-homepage .search-bar .navbar form .btn-search {
+    color: #fff;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #68078a, #890083);
+    border: none;
+    padding: 10px 35px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 17px 0 43px;
+    width: 150px;
+}
+#pindias-homepage .villa-list .col-3:nth-child(n+1) {
+    margin: 24px 0 0 0;
+}
 #pindias-homepage .urRealEstate .pickBar {
     background: url(img/pickBar-bg.jpg) center center / cover;
     width: 100%;
+}
+#pindias-homepage .urRealEstate .urRealEstate-content .pickBar {
+    border: 1px solid #bcbec0;
+    margin-top: 80px;
+}
+#pindias-homepage .urRealEstate .urRealEstate-content .pickBar .custom-radio-btn {
+    background: #fff;
+    padding: 16px;
+    border-right: 1px solid #bcbec0;
+}
+#pindias-homepage .urRealEstate .urRealEstate-content .pickBar .dropdown-btn {
+    margin-right: 19px;
+    background: #fff;
+}
+#pindias-homepage .urRealEstate .urRealEstate-content .pickBar .dropdown-btn ul {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0 10px 19px;
+}
+#pindias-homepage .urRealEstate .urRealEstate-content .pickBar .dropdown-btn ul li a {
+    color: #610682;
+    text-decoration: none;
+    padding: 10px 19px;
+    border: 1px solid #bcbec0;
+    background: #fff;
 }
 #pindias-homepage .urRealEstate .urRealEstate-Heading::after {
     content: "";
@@ -89,7 +143,7 @@ section {
 }
 #pindias-homepage .urRealEstate .villa-list .villa {
     position: relative;
-    margin: 20px 20px;
+    margin: 0px 0px;
 }
 #pindias-homepage .urRealEstate .villa-list .villa::before {
     content: "";
@@ -250,7 +304,7 @@ section {
 }
 #pindias-homepage .jointInvest-list .building-list .building {
     position: relative;
-    margin: 20px 20px;
+    margin: 24px 0 0 0;
 }
 
 #pindias-homepage .jointInvest-list .building-list .building .building-content {
@@ -312,6 +366,7 @@ section {
     background: #b2007a;
     padding: 13px 17px;
     display: inline-block;
+    margin: 0 20px 0 0;
 }
 #pindias-homepage .project-list .project-top .PRJ {
     background: #4f056a;
@@ -671,11 +726,35 @@ footer .information .link ul li, footer .information .infoo ul li {
 /* #pindias-homepage .urRealEstate .btn {
     
 } */
-#pindias-homepage .urRealEstate .btn-outline-sucess {
-    --bs-btn-active-bg: purple!important;
+#pindias-homepage  .urRealEstate .urRealEstate-content .btn-outline-success {
+    border: 1px solid transparent;
+    /* background: #fff; */
+    --bs-btn-active-border-color: #fff;
+    --bs-btn-hover-border: #fff;
+    --bs-btn-hover-bg: purple;
+    border-radius: 0;
+    --bs-btn-focus-shadow-rgb: none;
+    --bs-btn-color: purple;
 }
-.btn-check:active+.btn, .btn-check:checked+.btn, .btn.active, .btn.show, .btn:active {
-    color: var(--bs-btn-active-color);
-    background-color: var(--bs-btn-active-bg);
-    border-color: var(--bs-btn-active-border-color);
+#pindias-homepage  .nav-menu .search-bar .btn-outline-success {
+    border: 1px solid transparent;
+    /* background: #fff; */
+    --bs-btn-active-border-color: #fff;
+    --bs-btn-hover-border: #fff;
+    --bs-btn-hover-bg: purple;
+    border-radius: 0;
+    --bs-btn-focus-shadow-rgb: none;
+    --bs-btn-color: purple;
+}
+#pindias-homepage  .urRealEstate .urRealEstate-content 
+.btn-check:active+.btn, 
+.btn-check:checked+.btn, 
+.btn.active, 
+.btn.show, 
+.btn:active {
+    background: linear-gradient(to right, #610682, #800079);;
+    --bs-btn-active-border-color: #fff;
+    --bs-btn-hover-border: #fff;
+    --bs-btn-color: #fff;
+    border-radius: 0;
 }

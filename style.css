@@ -1,21 +1,26 @@
 * {
     box-sizing: border-box;
 }
+
 * img {
     max-width: 100%;
 }
+
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
+
 header .header-bg {
     background: url(img/Header-background.jpg) no-repeat center center / cover;
     height: 100vh;
 }
+
 .header-Heading {
     text-transform: uppercase;
     font-weight: 800;
     font-size: 72px;
 }
+
 header .header-Heading::after {
     content: "";
     background: #fff;
@@ -26,34 +31,43 @@ header .header-Heading::after {
     left: 50%;
     transform: translateX(-50%);
 }
+
 header .header-bg .header-menu {
     height: 100%;
     width: 100%;
 }
+
 header {
     max-width: auto;
 }
+
 header .header-btn a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
     font-size: 18px;
     background: linear-gradient(to right, #68078a, #890083);
-    padding: 15px;
+    padding: 7px 28px;
     border-radius: 5px;
     display: inline-block;
     margin: 0 25px;
 }
-header .header-menu h1, header .header-menu h3, header .header-menu .header-btn {
+
+header .header-menu h1,
+header .header-menu h3,
+header .header-menu .header-btn {
     padding: 0 0 80px;
     margin: 0;
-} 
+}
+
 #pindias-homepage {
     background: #e6e6e6;
 }
+
 section {
     padding: 80px 0;
 }
+
 .urRealEstate-Heading {
     text-transform: uppercase;
     font-weight: 800;
@@ -62,6 +76,7 @@ section {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 #pindias-homepage .header-Heading::after {
     content: "";
     background: #fff;
@@ -72,18 +87,22 @@ section {
     left: 50%;
     transform: translateX(-50%);
 }
+
 #pindias-homepage .search-bar .navbar .wrapper .fa-magnifying-glass {
     color: #828282;
     margin-right: 15px;
 }
+
 #pindias-homepage .search-bar .navbar form .fa-microphone {
     color: purple;
 }
+
 #pindias-homepage .search-bar .navbar .wrapper .form-control {
-    border: 1px solid rgba(0 , 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 0;
     background-color: transparent;
 }
+
 #pindias-homepage .search-bar .navbar form .btn-search {
     color: #fff;
     text-transform: uppercase;
@@ -95,32 +114,39 @@ section {
     margin: 0 17px 0 43px;
     width: 150px;
 }
+
 #pindias-homepage .villa-list .col-3:nth-child(n+1) {
     margin: 24px 0 0 0;
 }
+
 #pindias-homepage .urRealEstate .pickBar {
     background: url(img/pickBar-bg.jpg) center center / cover;
     width: 100%;
 }
+
 #pindias-homepage .urRealEstate .urRealEstate-content .pickBar {
     border: 1px solid #bcbec0;
     margin-top: 80px;
 }
+
 #pindias-homepage .urRealEstate .urRealEstate-content .pickBar .custom-radio-btn {
     background: #fff;
     padding: 16px;
     border-right: 1px solid #bcbec0;
 }
+
 #pindias-homepage .urRealEstate .urRealEstate-content .pickBar .dropdown-btn {
     margin-right: 19px;
     background: #fff;
 }
+
 #pindias-homepage .urRealEstate .urRealEstate-content .pickBar .dropdown-btn ul {
     list-style: none;
     font-size: 18px;
     font-weight: 500;
     padding: 10px 0 10px 19px;
 }
+
 #pindias-homepage .urRealEstate .urRealEstate-content .pickBar .dropdown-btn ul li a {
     color: #610682;
     text-decoration: none;
@@ -128,6 +154,7 @@ section {
     border: 1px solid #bcbec0;
     background: #fff;
 }
+
 #pindias-homepage .urRealEstate .urRealEstate-Heading::after {
     content: "";
     position: absolute;
@@ -138,13 +165,16 @@ section {
     right: 50%;
     transform: translateX(50%);
 }
+
 #pindias-homepage .urRealEstate-content {
     background: #fff;
 }
+
 #pindias-homepage .urRealEstate .villa-list .villa {
     position: relative;
     margin: 0px 0px;
 }
+
 #pindias-homepage .urRealEstate .villa-list .villa::before {
     content: "";
     background: #990066;
@@ -155,6 +185,7 @@ section {
     height: 65px;
     top: 70%;
 }
+
 #pindias-homepage .urRealEstate .villa-list .villa .villa-content {
     position: absolute;
     z-index: 3;
@@ -168,31 +199,53 @@ section {
     height: 65px;
     margin: 0;
 }
+
 #pindias-homepage .urRealEstate .urRealEstate-content .villa .show-info {
     position: absolute;
     color: #fff;
     text-transform: uppercase;
     opacity: 0;
-    left: 8px;
-    top: 65px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    top: 50px;
 }
+
 #pindias-homepage .jointInvest .jointInvest-list .building .show-info {
     position: absolute;
     color: #fff;
-    text-transform: uppercase;
     opacity: 0;
     left: 14px;
-    top: 40px;
+    top: 20px;
     text-align: start;
 }
+
+#pindias-homepage .jointInvest .jointInvest-list .building .show-info h4 {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+#pindias-homepage .jointInvest .jointInvest-list .building .show-info .addr-caption {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#pindias-homepage .jointInvest .jointInvest-list .building .show-info .description {
+    font-size: 18px;
+    text-transform: lowercase;
+    font-weight: 400;
+}
+
 #pindias-homepage .jointInvest .jointInvest-list .building img {
-    background: url(img/matrix-bg.png) no-repeat center center / cover;
+    background: url(img/bg-under-jointInvest.png) no-repeat center center / cover;
     width: 100%;
     height: 100%;
 }
+
 #pindias-homepage .jointInvest-list .building-list .building:hover .building-content {
     opacity: 0;
 }
+
 #pindias-homepage .jointInvest-list .building-list .building:hover:before {
     opacity: 0;
 }
@@ -205,7 +258,8 @@ section {
     text-decoration: none;
     padding: 10px 14px;
 }
-#pindias-homepage .jointInvest .jointInvest-list .building .show-info .detail-btn  {
+
+#pindias-homepage .jointInvest .jointInvest-list .building .show-info .detail-btn {
     color: #610977;
     background: #fff;
     font-size: 20px;
@@ -213,32 +267,49 @@ section {
     text-decoration: none;
     padding: 10px 14px;
 }
-#pindias-homepage .urRealEstate .urRealEstate-content .villa .show-info h3, #pindias-homepage .urRealEstate .urRealEstate-content .villa .show-info p {
+
+#pindias-homepage .urRealEstate .urRealEstate-content .villa .show-info h3,
+#pindias-homepage .urRealEstate .urRealEstate-content .villa .show-info p {
     left: 50px;
 }
+
 #pindias-homepage .urRealEstate .urRealEstate-content .villa .show-info .sub-title::before {
-    content: "";    
+    content: "";
     background: #fff;
     position: absolute;
     height: 1px;
-    width: 98%;
+    width: 95%;
     left: 50%;
     transform: translateX(-50%);
-    top: 41%;
+    top: 24%;
     display: block;
 }
+
 #pindias-homepage .urRealEstate .urRealEstate-content .villa .show-info .detail-villa ul li {
     list-style: none;
 }
+
+#pindias-homepage .urRealEstate .urRealEstate-content .villa .show-info .detail-villa ul {
+    padding: 0;
+}
+
+#pindias-homepage .urRealEstate .urRealEstate-content .villa .show-info .detail-villa {
+    display: flex;
+    justify-content: space-around;
+}
+
 #pindias-homepage .urRealEstate .villa-list .villa .villa-content .title {
     font-size: 18px;
     font-weight: 700;
 }
+
 #pindias-homepage .urRealEstate .villa-list .villa .villa-content .content {
     font-size: 16px;
     font-weight: 400;
 }
-#pindias-homepage .urRealEstate .urRealEstate-content .villa::after, #pindias-homepage .jointInvest .jointInvest-list .building::after {
+
+#pindias-homepage .urRealEstate .urRealEstate-content .villa::after,
+#pindias-homepage .jointInvest .jointInvest-list .building::after {
     background: #920071;
     height: 100%;
     width: 100%;
@@ -248,29 +319,39 @@ section {
     left: 0;
     opacity: 0;
 }
-#pindias-homepage .urRealEstate .urRealEstate-content .villa:hover::after, #pindias-homepage .jointInvest .jointInvest-list .building:hover::after {
+
+#pindias-homepage .urRealEstate .urRealEstate-content .villa:hover::after,
+#pindias-homepage .jointInvest .jointInvest-list .building:hover::after {
     opacity: 0.5;
 }
-#pindias-homepage .urRealEstate .urRealEstate-content .villa:hover .show-info, #pindias-homepage .jointInvest .jointInvest-list .building:hover .show-info {
+
+#pindias-homepage .urRealEstate .urRealEstate-content .villa:hover .show-info,
+#pindias-homepage .jointInvest .jointInvest-list .building:hover .show-info {
     z-index: 3;
     opacity: 1;
 }
-#pindias-homepage .urRealEstate .urRealEstate-content .villa:hover .villa-content, #pindias-homepage .urRealEstate .urRealEstate-content .villa:hover::before {
+
+#pindias-homepage .urRealEstate .urRealEstate-content .villa:hover .villa-content,
+#pindias-homepage .urRealEstate .urRealEstate-content .villa:hover::before {
     opacity: 0;
 }
+
 #pindias-homepage .jointInvest .jointInvest-banner {
-    background: url(img/jointInvest-banner.jpg) no-repeat;
+    background: url(img/jointInvest-banner.jpg), url(img/bg-under-jointInvest.png) no-repeat;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 #pindias-homepage .jointInvest .jointInvest-banner {
     padding-bottom: 40px;
 }
+
 #pindias-homepage .jointInvest .jointInvest-banner .banner-content {
     padding: 55px 0;
 }
+
 #pindias-homepage .jointInvest .jointInvest-banner .banner-content .join-btn-wrap .join-btn {
     color: #660066;
     background: #fff;
@@ -280,17 +361,21 @@ section {
     padding: 10px 25px;
     border-radius: 5px;
 }
+
 #pindias-homepage .jointInvest .jointInvest-banner .banner-content .join-btn-wrap {
     padding-top: 36px;
 }
+
 #pindias-homepage .jointInvest .jointInvest-banner .jointInvest-banner-heading {
     font-size: 48px;
     font-weight: 800;
 }
+
 #pindias-homepage .jointInvest .jointInvest-banner .jointInvest-banner-subHeading {
     font-size: 36px;
     font-weight: 400;
 }
+
 #pindias-homepage .jointInvest .jointInvest-banner .jointInvest-banner-subHeading::after {
     content: "";
     background: #fff;
@@ -302,6 +387,7 @@ section {
     transform: translateX(-50%);
     top: 70px;
 }
+
 #pindias-homepage .jointInvest-list .building-list .building {
     position: relative;
     margin: 24px 0 0 0;
@@ -320,6 +406,7 @@ section {
     height: 65px;
     margin: 0;
 }
+
 #pindias-homepage .jointInvest-list .building-list .building::before {
     content: "";
     background: #990066;
@@ -330,21 +417,25 @@ section {
     height: 65px;
     top: 70%;
 }
+
 #pindias-homepage .project-list {
     background: #43045b no-repeat center center / cover;
     max-width: 100%;
     height: auto;
     padding: 0 20px;
 }
+
 #pindias-homepage .project-list .project-top {
     background: linear-gradient(to right, #600681, #82047c) top center / cover;
     height: 80px;
     width: 100%;
 }
+
 #pindias-homepage .project-list .project-top .prev-next {
     color: #fff;
     margin: 0 20px;
 }
+
 #pindias-homepage .project-list .project-top h3 {
     display: inline-block;
     color: #fff;
@@ -353,6 +444,7 @@ section {
     background: linear-gradient(to right, #600681, #80007a);
     padding: 5px 50px;
 }
+
 #pindias-homepage .project-list .project-top p {
     display: inline-block;
     color: #fff;
@@ -362,24 +454,29 @@ section {
     padding: 10px 10px;
     text-transform: uppercase;
 }
+
 #pindias-homepage .project-list .project-top i {
     background: #b2007a;
     padding: 13px 17px;
     display: inline-block;
     margin: 0 20px 0 0;
 }
+
 #pindias-homepage .project-list .project-top .PRJ {
     background: #4f056a;
     padding: 16px 16px;
 }
+
 #pindias-homepage .project-list .project-top .PRJ-more {
     padding-right: 20px;
 }
+
 #pindias-homepage .project-list .project-bottom .project-list-content .project-content {
     background: #fff;
     color: #58595b;
     padding: 20px;
 }
+
 #pindias-homepage .project-list .project-bottom .project-list-content .project-content h3 {
     font-size: 30px;
     font-weight: 700;
@@ -387,6 +484,7 @@ section {
     border-left: 10px solid #920071;
     margin: 0;
 }
+
 #pindias-homepage .project-list .project-top p::after {
     content: "";
     position: absolute;
@@ -394,9 +492,12 @@ section {
     height: 5px;
     width: 50px;
 }
-#pindias-homepage .project-bottom .project-list-content .project-img, #pindias-homepage .project-bottom .project-list-content .project-content {
+
+#pindias-homepage .project-bottom .project-list-content .project-img,
+#pindias-homepage .project-bottom .project-list-content .project-content {
     max-width: 50%;
 }
+
 #pindias-homepage .project-list .project-bottom .detail-btn {
     position: absolute;
     text-decoration: none;
@@ -412,6 +513,7 @@ section {
     opacity: 0;
     z-index: 3;
 }
+
 #pindias-homepage .project-bottom .project-list-content .project-info:hover:before {
     content: "";
     width: 100%;
@@ -424,27 +526,35 @@ section {
     border-image-slice: 1;
     border-image-source: linear-gradient(to right, #610682, #800079);
 }
-#pindias-homepage .project-bottom .project-list-content .project-info1:hover a, #pindias-homepage .project-bottom .project-list-content .project-info2:hover a  {
+
+#pindias-homepage .project-bottom .project-list-content .project-info1:hover a,
+#pindias-homepage .project-bottom .project-list-content .project-info2:hover a {
     opacity: 1;
 }
-#pindias-homepage .project-list .project-bottom .project-list-content .project-info2, #pindias-homepage .project-list .project-bottom .project-list-content .project-info1 {
+
+#pindias-homepage .project-list .project-bottom .project-list-content .project-info2,
+#pindias-homepage .project-list .project-bottom .project-list-content .project-info1 {
     margin: 40px 0;
 }
+
 #pindias-homepage .news {
     padding: 80px 32px;
 }
+
 #pindias-homepage .news .news-top {
-    background: url(img/jointInvest-under-banner.jpg) no-repeat content-box;
+    background: url(img/jointInvest-under-banner.jpg) repeat content-box;
     width: 100%;
     height: auto;
     border: 1px solid #bcbec0;
 }
+
 #pindias-homepage .news .news-top .news-news {
     border: 1px solid #80007a;
     padding: 15px 18px;
     background: #fff;
     display: inline-block;
 }
+
 #pindias-homepage .news .news-top .news-news h3 {
     font-size: 30px;
     font-weight: 800;
@@ -453,6 +563,7 @@ section {
     padding: 5px 75px;
     vertical-align: middle;
 }
+
 #pindias-homepage .news .news-top .all-news h3 {
     font-size: 18px;
     font-weight: 500;
@@ -463,19 +574,23 @@ section {
     display: inline-block;
     background: #fff;
 }
+
 #pindias-homepage .news .news-top .all-news {
     padding-right: 19px;
 }
+
 #pindias-homepage .news .content {
     background: #fff;
-    padding: 40px 30px ;
+    padding: 40px 30px;
     width: 50%;
 }
+
 #pindias-homepage .news .content .content-title {
     font-size: 27px;
     font-weight: bold;
     color: #58595b;
 }
+
 #pindias-homepage .news .content .content-content {
     font-size: 15px;
     font-weight: 400;
@@ -485,52 +600,68 @@ section {
     border-left: 11px solid #920071;
     padding-left: 25px;
 }
+
 #pindias-homepage .news .news-img {
     width: 50%;
 }
+
 #pindias-homepage .news .content a {
     background: linear-gradient(to right, #600681, #80007a);
     padding: 10px 25px;
     border-radius: 5px;
 }
-#pindias-homepage .news-bottom .wrapper .wrapper-content h3, #pindias-homepage .news-bottom .wrapper .wrapper-content p {
+
+#pindias-homepage .news-bottom .wrapper .wrapper-content h3,
+#pindias-homepage .news-bottom .wrapper .wrapper-content p {
     line-height: 1.1;
 }
+
 #pindias-homepage .news-bottom .wrapper .wrapper-content h3 {
     border-left: 3px solid #80007a;
 }
+
 #pindias-homepage .news-bottom .wrapper .wrapper-content {
     align-self: center;
     padding: 10px;
 }
+
 #pindias-homepage .right .right-news-img {
     width: 40%;
 }
+
 #pindias-homepage .news-bottom .left-content .news-btn {
     padding-top: 50px;
 }
+
 #pindias-homepage .news-bottom .left-content .news-btn a {
     color: #fff;
 }
+
 #pindias-homepage .right .wrapper {
     background: #fff;
     position: relative;
 }
-#pindias-homepage .right .wrapper:hover:before, #pindias-homepage .news-bottom .left-content:hover:before {
+
+#pindias-homepage .right .wrapper:hover:before,
+#pindias-homepage .news-bottom .left-content:hover:before {
     content: "";
     width: 100%;
     height: 100%;
     position: absolute;
     background: #80007a80;
 }
-#pindias-homepage .news-bottom .wrapper .left-content:hover .content-title, #pindias-homepage .news-bottom .wrapper .left-content:hover .content-content {
+
+#pindias-homepage .news-bottom .wrapper .left-content:hover .content-title,
+#pindias-homepage .news-bottom .wrapper .left-content:hover .content-content {
     color: #fff;
     position: relative;
     z-index: 1;
 }
+
 #pindias-homepage .news-bottom .wrapper .left-content:hover .content-content {
     border-left: 11px solid #fff;
 }
+
 #pindias-homepage .news-bottom .wrapper .left-content:hover .news-btn a {
     background: #fff;
     position: relative;
@@ -538,20 +669,25 @@ section {
     color: #6f047e;
 
 }
-#pindias-homepage .right .wrapper:hover .wrapper-content h3, #pindias-homepage .right .wrapper:hover .wrapper-content p {
+
+#pindias-homepage .right .wrapper:hover .wrapper-content h3,
+#pindias-homepage .right .wrapper:hover .wrapper-content p {
     position: relative;
     z-index: 1;
     color: #fff;
 }
+
 #pindias-homepage .right .wrapper:hover .wrapper-content h3 {
     border-left: 3px solid #fff;
 }
+
 #pindias-homepage .right .wrapper-content h3 {
     font-size: 17px;
     font-weight: bold;
     color: #58595b;
     padding-left: 7px;
 }
+
 #pindias-homepage .right .wrapper-content p {
     font-size: 15px;
     font-weight: 400;
@@ -559,18 +695,22 @@ section {
     margin: 0;
     padding-left: 10px;
 }
+
 #pindias-homepage .news-bottom {
     padding-top: 40px;
 }
+
 #pindias-homepage .news-bottom .wrapper {
     padding-right: 40px;
 }
+
 #pindias-homepage .partner .banner {
     background: url(img/partner-banner.jpg);
     width: 100%;
     height: auto;
     border: 1px solid #bcbec0;
 }
+
 #pindias-homepage .partner .banner .partner-title {
     font-size: 30px;
     font-weight: 800;
@@ -579,6 +719,7 @@ section {
     padding: 4px 65px;
     text-align: center;
 }
+
 #pindias-homepage .partner .banner .white-border {
     background: #fff;
     padding: 16px 16px;
@@ -587,10 +728,12 @@ section {
     display: inline-block;
     transform: translateX(50%);
 }
+
 #pindias-homepage .partner .banner .prev-next {
     display: inline;
     vertical-align: middle;
 }
+
 #pindias-homepage .partner .banner .prev-next i {
     border: 1px solid #bcbec0;
     background: #fff;
@@ -598,9 +741,11 @@ section {
     padding: 18px 20px;
     margin-right: 20px;
 }
+
 #pindias-homepage .partner {
     background: #fff;
 }
+
 #pindias-homepage .partner .partner-logo div:nth-child(n+1):hover::before {
     content: "";
     width: 100%;
@@ -613,9 +758,11 @@ section {
     border-image-slice: 1;
     border-image-source: linear-gradient(to right, #610682, #800079);
 }
+
 #pindias-homepage .partner .partner-logo {
     margin-top: 40px;
 }
+
 #pindias-homepage .partner .partner-logo div:nth-child(n+1) {
     display: block;
     display: flex;
@@ -624,6 +771,7 @@ section {
     position: relative;
     padding: 10px 0;
 }
+
 #pindias-homepage .partner .partner-logo div:nth-child(-n+5) {
     border-right: 1px solid #bcbec0;
 }
@@ -631,53 +779,64 @@ section {
 #pindias-homepage .partner .partner-logo {
     border: 1px solid #bcbec0;
 }
+
 #pindias-homepage .info-receive {
     background: linear-gradient(to right, #660099, #990066);
     width: 100%;
     height: auto;
 }
+
 #pindias-homepage .info-receive .info-content {
     font-size: 24px;
 }
+
 #pindias-homepage .info-receive .info-input-form .input-group {
     margin-left: 70px;
     padding: 45px 0;
 }
+
 #pidias-homepage .info-receive .info-input-form .input-group .input-group-text {
     background: #610682;
 }
+
 #pindias-homepage .sub-footer {
     background: #fff;
     width: 100%;
     height: auto;
 }
+
 #pindias-homepage .menu-top .sub-footer .connect-with-me ul li {
     list-style: none;
     padding: 0 25px;
 }
+
 #pindias-homepage .sub-footer h4 {
     text-transform: uppercase;
     color: #660066;
     font-size: 20px;
     font-weight: bold;
 }
+
 #pindias-homepage .sub-footer .navigate .nav-content ul {
     color: #666666;
     font-size: 18px;
     font-weight: 400;
 }
+
 #pindias-homepage .sub-footer .navigate .nav-title h4::after {
     content: "";
     position: absolute;
     height: 1px;
     width: 70%;
     background: #5e0b7b;
-    right: 2%;  
+    right: 2%;
     top: 50%;
 }
+
 #pindias-homepage .sub-footer {
     padding: 70px 0;
 }
+
 #pindias-homepage .sub-footer .connect-with-me h4::after {
     content: "";
     position: absolute;
@@ -687,6 +846,7 @@ section {
     top: 50%;
     right: 2%;
 }
+
 #pindias-homepage .sub-footer .connect-with-me .social::after {
     content: "";
     position: absolute;
@@ -694,29 +854,41 @@ section {
     height: 1px;
     background: #5e0b7b;
 }
-#pindias-homepage .sub-footer .p1, #pindias-homepage .sub-footer .p2, #pindias-homepage .sub-footer .p3, #pindias-homepage .sub-footer .p4 {
+
+#pindias-homepage .sub-footer .p1,
+#pindias-homepage .sub-footer .p2,
+#pindias-homepage .sub-footer .p3,
+#pindias-homepage .sub-footer .p4 {
     padding: 0 40px;
 }
+
 #pindias-homepage .sub-footer .certificate {
     padding-top: 20px;
 }
-#pindias-homepage .sub-footer .download .appstore-lg, #pindias-homepage .sub-footer .download .ggplay-lg {
+
+#pindias-homepage .sub-footer .download .appstore-lg,
+#pindias-homepage .sub-footer .download .ggplay-lg {
     padding-bottom: 25px;
 }
+
 footer .info-footer {
     background: #4c4c4c;
     width: 100%;
     height: auto;
 }
+
 footer .info-title h4 {
     font-size: 20px;
     font-weight: bold;
 }
+
 footer .infomation .address {
     font-size: 18px;
     font-weight: 400;
 }
-footer .information .link ul li, footer .information .infoo ul li {
+
+footer .information .link ul li,
+footer .information .infoo ul li {
     list-style: none;
     color: #fff;
 }
@@ -726,7 +898,7 @@ footer .information .link ul li, footer .information .infoo ul li {
 /* #pindias-homepage .urRealEstate .btn {
     
 } */
-#pindias-homepage  .urRealEstate .urRealEstate-content .btn-outline-success {
+#pindias-homepage .urRealEstate .urRealEstate-content .btn-outline-success {
     border: 1px solid transparent;
     /* background: #fff; */
     --bs-btn-active-border-color: #fff;
@@ -736,7 +908,8 @@ footer .information .link ul li, footer .information .infoo ul li {
     --bs-btn-focus-shadow-rgb: none;
     --bs-btn-color: purple;
 }
-#pindias-homepage  .nav-menu .search-bar .btn-outline-success {
+
+#pindias-homepage .nav-menu .search-bar .btn-outline-success {
     border: 1px solid transparent;
     /* background: #fff; */
     --bs-btn-active-border-color: #fff;
@@ -746,15 +919,103 @@ footer .information .link ul li, footer .information .infoo ul li {
     --bs-btn-focus-shadow-rgb: none;
     --bs-btn-color: purple;
 }
-#pindias-homepage  .urRealEstate .urRealEstate-content 
-.btn-check:active+.btn, 
-.btn-check:checked+.btn, 
-.btn.active, 
-.btn.show, 
+
+#pindias-homepage .urRealEstate .urRealEstate-content .btn-check:active+.btn,
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
 .btn:active {
-    background: linear-gradient(to right, #610682, #800079);;
+    background: linear-gradient(to right, #610682, #800079);
+    ;
     --bs-btn-active-border-color: #fff;
     --bs-btn-hover-border: #fff;
     --bs-btn-color: #fff;
     border-radius: 0;
+}
+
+header .navbar.bg-light {
+    background: linear-gradient(to right, #6b0d89, #8f0089);
+}
+
+header .navbar::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to right, #5e0b7b, #81007b);
+    bottom: 0;
+    z-index: 0;
+}
+
+header .navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+header .navbar-nav .header-btn {
+    background: #6a078c;
+    border: 1px solid #490056;
+    border-radius: 5px;
+}
+
+header .navbar-nav li {
+    padding: 0 15px;
+}
+
+header .navbar .navbar-collapse {
+    flex-grow: 0;
+}
+
+header .nav-menu-logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+header .header-btn .digital-trans {
+    background: #fff;
+    color: #732c8d;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+header .header-btn .vr-ex {
+    z-index: 0;
+}
+
+header .header-btn .digital-trans {
+    z-index: 0;
+}
+
+header .header-btn .vr-ex::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(to right, #540574, #73006d);
+    display: inline-block;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+header .header-btn .digital-trans::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: #e6e6e6;
+    display: inline-block;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+header .navbar .container-fluid {
+    z-index: 0;
 }

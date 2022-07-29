@@ -1,66 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/36aead5194.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <div class="header-bg">
             <div class="container-wrap d-flex flex-column justify-content-center header-menu g-0">
-                <h1 class="header-Heading text-white text-center position-relative">tìm kiếm ngôi nhà ước mơ của bạn</h1>
-                <h3 class="text-uppercase text-white text-center fs30">trải nghiệm & đầu tư bất động sản cùng pindias</h3>
+                <h1 class="header-Heading text-white text-center position-relative">tìm kiếm ngôi nhà ước mơ của bạn
+                </h1>
+                <h3 class="text-uppercase text-white text-center fs30">trải nghiệm & đầu tư bất động sản cùng pindias
+                </h3>
                 <div class="header-btn text-center">
-                    <a href="#">trải nghiệm vr</a>
-                    <a href="#">tham gia giao dịch số</a>
+                    <a href="#" class="vr-ex position-relative">
+                        <img src="img/vr-logo.png" alt="">
+                        trải nghiệm vr</a>
+                    <a href="#" class="digital-trans position-relative">
+                        <img src="img/digital-trans-logo.png" alt="">
+                        tham gia giao dịch số</a>
                 </div>
             </div>
         </div>
-        <div class="contaier-fluid">
-            <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+        <nav class="navbar navbar-expand-lg bg-light position-relative">
+            <div class="container-fluid">
+                <form class="d-flex">
+                    <div class="nav-menu-logo">
+                        <a href="#"><i class="fa-solid fa-bars text-white fa-2xl"></i></a>
+                        <a href="#">Menu</a>
+                    </div>
+                </form>
+                <a class="navbar-brand mx-auto flex-grow-1 text-center" href="#"><img
+                        src="img/pindias-lg-header-banner.jpg" alt=""></a>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Menu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><img src="" alt=""></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li>
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item text-white">
+                            <a class="nav-link active" aria-current="page" href="#">MUA BÁN</a>
+                        </li>
+                        <li class="nav-item" aria-current="page" href="#">
+                            <a class="nav-link active" href="#">CHO THUÊ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">DỰ ÁN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">GIAO DỊCH SỐ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">QUY HOẠCH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">ĐỊNH GIÁ SỐ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active header-btn" aria-current="page" href="#">Đăng ký/Đăng nhập</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active header-btn" aria-current="page" href="#">ĐĂNG TIN</a>
+                        </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                 </div>
-                </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
     <div id="pindias-homepage">
         <div class="menu-top">
@@ -70,21 +83,26 @@
                         <div class="col-6">
                             <div class="search-bar">
                                 <div class="radio-btn bg-light d-inline-block">
-                                    <input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked>
-                                    <label class="btn btn-outline-success text-uppercase" for="success-outlined">Mua bán</label>
-                                    <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
-                                    <label class="btn btn-outline-success text-uppercase" for="danger-outlined">Cho thuê</label>
+                                    <input type="radio" class="btn-check" name="options-outlined" id="success-outlined"
+                                        autocomplete="off" checked>
+                                    <label class="btn btn-outline-success text-uppercase" for="success-outlined">Mua
+                                        bán</label>
+                                    <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined"
+                                        autocomplete="off">
+                                    <label class="btn btn-outline-success text-uppercase" for="danger-outlined">Cho
+                                        thuê</label>
                                 </div>
                                 <nav class="navbar bg-light d-flex">
-                                        <div class="wrapper d-flex align-items-center w-100 justify-content-between ms-3">
-                                            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-                                            <input class="form-control me-2" type="search" placeholder="Tìm kiếm địa chỉ, tỉnh, thành phố" aria-label="Search">
-                                      <form class="d-flex align-items-center" role="search">
-                                        <i class="fa-solid fa-microphone fa-2xl"></i>
-                                        <button class="btn-search" type="submit">Tìm kiếm</button>
-                                      </form>
+                                    <div class="wrapper d-flex align-items-center w-100 justify-content-between ms-3">
+                                        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                                        <input class="form-control me-2" type="search"
+                                            placeholder="Tìm kiếm địa chỉ, tỉnh, thành phố" aria-label="Search">
+                                        <form class="d-flex align-items-center" role="search">
+                                            <i class="fa-solid fa-microphone fa-2xl"></i>
+                                            <button class="btn-search" type="submit">Tìm kiếm</button>
+                                        </form>
                                     </div>
-                                  </nav>
+                                </nav>
                             </div>
                         </div>
                         <div class="col-6">
@@ -101,10 +119,14 @@
                         <h1 class="urRealEstate-Heading position-relative">bất động sản cho bạn</h1>
                         <div class="pickBar d-flex align-items-center justify-content-between">
                             <div class="custom-radio-btn">
-                                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked>
-                                <label class="btn btn-outline-success text-uppercase" for="success-outlined">Mua bán</label>
-                                <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
-                                <label class="btn btn-outline-success text-uppercase" for="danger-outlined">Cho thuê</label>
+                                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined"
+                                    autocomplete="off" checked>
+                                <label class="btn btn-outline-success text-uppercase" for="success-outlined">Mua
+                                    bán</label>
+                                <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined"
+                                    autocomplete="off">
+                                <label class="btn btn-outline-success text-uppercase" for="danger-outlined">Cho
+                                    thuê</label>
                             </div>
                             <div class="dropdown-btn">
                                 <ul class="d-flex align-items-center justify-content-center m-0">
@@ -116,12 +138,12 @@
                         </div>
                         <div class="row villa-list">
                             <div class="col-3">
-                                <div class="villa villa-1 position-relative">
-                                    <div class="show-info d-inline-block">
+                                <div class="villa villa-1 position-relative text-center">
+                                    <div class="show-info">
                                         <h3 class="fw-bold">bán biệt thự liền kề him lam</h3>
                                         <p class="fw-bold sub-title">vạn phúc, hà nội, việt nam</p>
-                                        <div class="detail-villa d-flex justify-content-between">
-                                            <ul>
+                                        <div class="detail-villa">
+                                            <ul class="">
                                                 <li>phòng tắm: 05</li>
                                                 <li>phòng ngủ: 05</li>
                                             </ul>
@@ -132,7 +154,8 @@
                                     </div>
                                     <img src="img/villa-1.jpg" alt="">
                                     <p class="villa-content">
-                                        <span class="title">bán biệt thự liền kề him lam</span><br><span class="content">vạn phúc, hà nội, việt nam</span> 
+                                        <span class="title">bán biệt thự liền kề him lam</span><br><span
+                                            class="content">vạn phúc, hà nội, việt nam</span>
                                     </p>
                                 </div>
                             </div>
@@ -141,7 +164,7 @@
                                     <div class="show-info d-inline-block">
                                         <h3 class="fw-bold">bán biệt thự liền kề him lam</h3>
                                         <p class="fw-bold sub-title">vạn phúc, hà nội, việt nam</p>
-                                        <div class="detail-villa d-flex justify-content-between">
+                                        <div class="detail-villa">
                                             <ul>
                                                 <li>phòng tắm: 05</li>
                                                 <li>phòng ngủ: 05</li>
@@ -153,7 +176,8 @@
                                     </div>
                                     <img src="img/villa-2.jpg" alt="">
                                     <p class="villa-content">
-                                        <span class="title">bán biệt thự liền kề him lam</span><br><span class="content">vạn phúc, hà nội, việt nam</span> 
+                                        <span class="title">bán biệt thự liền kề him lam</span><br><span
+                                            class="content">vạn phúc, hà nội, việt nam</span>
                                     </p>
                                 </div>
                             </div>
@@ -162,7 +186,7 @@
                                     <div class="show-info d-inline-block">
                                         <h3 class="fw-bold">bán biệt thự liền kề him lam</h3>
                                         <p class="fw-bold sub-title">vạn phúc, hà nội, việt nam</p>
-                                        <div class="detail-villa d-flex justify-content-between">
+                                        <div class="detail-villa d-flex">
                                             <ul>
                                                 <li>phòng tắm: 05</li>
                                                 <li>phòng ngủ: 05</li>
@@ -174,7 +198,8 @@
                                     </div>
                                     <img src="img/villa-3.jpg" alt="">
                                     <p class="villa-content">
-                                        <span class="title">bán biệt thự liền kề him lam</span><br><span class="content">vạn phúc, hà nội, việt nam</span> 
+                                        <span class="title">bán biệt thự liền kề him lam</span><br><span
+                                            class="content">vạn phúc, hà nội, việt nam</span>
                                     </p>
                                 </div>
                             </div>
@@ -183,7 +208,7 @@
                                     <div class="show-info d-inline-block">
                                         <h3 class="fw-bold">bán biệt thự liền kề him lam</h3>
                                         <p class="fw-bold sub-title">vạn phúc, hà nội, việt nam</p>
-                                        <div class="detail-villa d-flex justify-content-between">
+                                        <div class="detail-villa">
                                             <ul>
                                                 <li>phòng tắm: 05</li>
                                                 <li>phòng ngủ: 05</li>
@@ -195,7 +220,8 @@
                                     </div>
                                     <img src="img/villa-4.jpg" alt="">
                                     <p class="villa-content">
-                                        <span class="title">bán biệt thự liền kề him lam</span><br><span class="content">vạn phúc, hà nội, việt nam</span> 
+                                        <span class="title">bán biệt thự liền kề him lam</span><br><span
+                                            class="content">vạn phúc, hà nội, việt nam</span>
                                     </p>
                                 </div>
                             </div>
@@ -204,7 +230,7 @@
                                     <div class="show-info d-inline-block">
                                         <h3 class="fw-bold">bán biệt thự liền kề him lam</h3>
                                         <p class="fw-bold sub-title">vạn phúc, hà nội, việt nam</p>
-                                        <div class="detail-villa d-flex justify-content-between">
+                                        <div class="detail-villa">
                                             <ul>
                                                 <li>phòng tắm: 05</li>
                                                 <li>phòng ngủ: 05</li>
@@ -216,7 +242,8 @@
                                     </div>
                                     <img src="img/villa-5.jpg" alt="">
                                     <p class="villa-content">
-                                        <span class="title">bán biệt thự liền kề him lam</span><br><span class="content">vạn phúc, hà nội, việt nam</span> 
+                                        <span class="title">bán biệt thự liền kề him lam</span><br><span
+                                            class="content">vạn phúc, hà nội, việt nam</span>
                                     </p>
                                 </div>
                             </div>
@@ -225,7 +252,7 @@
                                     <div class="show-info d-inline-block">
                                         <h3 class="fw-bold">bán biệt thự liền kề him lam</h3>
                                         <p class="fw-bold sub-title">vạn phúc, hà nội, việt nam</p>
-                                        <div class="detail-villa d-flex justify-content-between">
+                                        <div class="detail-villa">
                                             <ul>
                                                 <li>phòng tắm: 05</li>
                                                 <li>phòng ngủ: 05</li>
@@ -237,7 +264,8 @@
                                     </div>
                                     <img src="img/villa-6.jpg" alt="">
                                     <p class="villa-content">
-                                        <span class="title">bán biệt thự liền kề him lam</span><br><span class="content">vạn phúc, hà nội, việt nam</span> 
+                                        <span class="title">bán biệt thự liền kề him lam</span><br><span
+                                            class="content">vạn phúc, hà nội, việt nam</span>
                                     </p>
                                 </div>
                             </div>
@@ -246,7 +274,7 @@
                                     <div class="show-info d-inline-block">
                                         <h3 class="fw-bold">bán biệt thự liền kề him lam</h3>
                                         <p class="fw-bold sub-title">vạn phúc, hà nội, việt nam</p>
-                                        <div class="detail-villa d-flex justify-content-between">
+                                        <div class="detail-villa">
                                             <ul>
                                                 <li>phòng tắm: 05</li>
                                                 <li>phòng ngủ: 05</li>
@@ -258,7 +286,8 @@
                                     </div>
                                     <img src="img/villa-7.jpg" alt="">
                                     <p class="villa-content">
-                                        <span class="title">bán biệt thự liền kề him lam</span><br><span class="content">vạn phúc, hà nội, việt nam</span> 
+                                        <span class="title">bán biệt thự liền kề him lam</span><br><span
+                                            class="content">vạn phúc, hà nội, việt nam</span>
                                     </p>
                                 </div>
                             </div>
@@ -267,7 +296,7 @@
                                     <div class="show-info d-inline-block">
                                         <h3 class="fw-bold">bán biệt thự liền kề him lam</h3>
                                         <p class="fw-bold sub-title">vạn phúc, hà nội, việt nam</p>
-                                        <div class="detail-villa d-flex justify-content-between">
+                                        <div class="detail-villa">
                                             <ul>
                                                 <li>phòng tắm: 05</li>
                                                 <li>phòng ngủ: 05</li>
@@ -279,7 +308,8 @@
                                     </div>
                                     <img src="img/villa-8.jpg" alt="">
                                     <p class="villa-content">
-                                        <span class="title">bán biệt thự liền kề him lam</span><br><span class="content">vạn phúc, hà nội, việt nam</span> 
+                                        <span class="title">bán biệt thự liền kề him lam</span><br><span
+                                            class="content">vạn phúc, hà nội, việt nam</span>
                                     </p>
                                 </div>
                             </div>
@@ -293,7 +323,8 @@
                         <h1 class="jointInvest-banner-heading">đầu tư chung - mua chung</h1>
                         <p class="jointInvest-banner-subHeading position-relative">giao dịch số</p>
                         <div class="join-btn-wrap">
-                            <a href="#" class="join-btn text-uppercase text-center text-decoration-none">tham gia đầu tư</a>
+                            <a href="#" class="join-btn text-uppercase text-center text-decoration-none">tham gia đầu
+                                tư</a>
                         </div>
                     </div>
                 </div>
@@ -308,13 +339,14 @@
                                         <div class="text-center">
                                             <a href="#" class="detail-btn">XEM CHI TIẾT</a>
                                         </div>
-                                        <p class="pt-4">16 oceanfront luxury condominiums in Surfside, is the
+                                        <p class="pt-5">16 oceanfront luxury condominiums in Surfside, is the
                                             first-ever project in the United States by the legendary
                                             Italian architecture</p>
                                     </div>
                                     <img src="img/building-1.jpg" alt="">
                                     <p class="building-content">
-                                        <span class="title">đầu tư chung - mua chung bđs</span><br><span class="content">tòa nhà khách sạn tm mct</span> 
+                                        <span class="title">đầu tư chung - mua chung bđs</span><br><span
+                                            class="content">tòa nhà khách sạn tm mct</span>
                                     </p>
                                 </div>
                             </div>
@@ -326,13 +358,14 @@
                                         <div class="text-center">
                                             <a href="#" class="detail-btn">XEM CHI TIẾT</a>
                                         </div>
-                                        <p class="pt-4">16 oceanfront luxury condominiums in Surfside, is the
+                                        <p class="pt-5">16 oceanfront luxury condominiums in Surfside, is the
                                             first-ever project in the United States by the legendary
                                             Italian architecture</p>
                                     </div>
                                     <img src="img/building-2.jpg" alt="">
                                     <p class="building-content">
-                                        <span class="title">đầu tư chung - mua chung bđs</span><br><span class="content">tòa nhà khách sạn tm mct</span> 
+                                        <span class="title">đầu tư chung - mua chung bđs</span><br><span
+                                            class="content">tòa nhà khách sạn tm mct</span>
                                     </p>
                                 </div>
                             </div>
@@ -340,17 +373,19 @@
                                 <div class="building position-relative">
                                     <div class="show-info">
                                         <h4>JOINT INVESTMENT IN DIGITAL</h4>
-                                        <p class="pb-3">8955 COLLINS AVENUE, MIAMI BEACH, FL</p>
+                                        <p class="pb-3 addr-caption">8955 COLLINS AVENUE, MIAMI BEACH, FL</p>
                                         <div class="text-center">
                                             <a href="#" class="detail-btn">XEM CHI TIẾT</a>
                                         </div>
-                                        <p class="pt-4">16 oceanfront luxury condominiums in Surfside, is the
+                                        <p class="pt-5 description">16 oceanfront luxury condominiums in Surfside, is
+                                            the
                                             first-ever project in the United States by the legendary
                                             Italian architecture</p>
                                     </div>
                                     <img src="img/building-3.jpg" alt="">
                                     <p class="building-content">
-                                        <span class="title">đầu tư chung - mua chung bđs</span><br><span class="content">tòa nhà khách sạn tm mct</span> 
+                                        <span class="title">đầu tư chung - mua chung bđs</span><br><span
+                                            class="content">tòa nhà khách sạn tm mct</span>
                                     </p>
                                 </div>
                             </div>
@@ -362,13 +397,14 @@
                                         <div class="text-center">
                                             <a href="#" class="detail-btn">XEM CHI TIẾT</a>
                                         </div>
-                                        <p class="pt-4">16 oceanfront luxury condominiums in Surfside, is the
+                                        <p class="pt-5">16 oceanfront luxury condominiums in Surfside, is the
                                             first-ever project in the United States by the legendary
                                             Italian architecture</p>
                                     </div>
                                     <img src="img/building-4.jpg" alt="">
                                     <p class="building-content">
-                                        <span class="title">đầu tư chung - mua chung bđs</span><br><span class="content">tòa nhà khách sạn tm mct</span> 
+                                        <span class="title">đầu tư chung - mua chung bđs</span><br><span
+                                            class="content">tòa nhà khách sạn tm mct</span>
                                     </p>
                                 </div>
                             </div>
@@ -380,13 +416,14 @@
                                         <div class="text-center">
                                             <a href="#" class="detail-btn">XEM CHI TIẾT</a>
                                         </div>
-                                        <p class="pt-4">16 oceanfront luxury condominiums in Surfside, is the
+                                        <p class="pt-5">16 oceanfront luxury condominiums in Surfside, is the
                                             first-ever project in the United States by the legendary
                                             Italian architecture</p>
                                     </div>
                                     <img src="img/building-5.jpg" alt="">
                                     <p class="building-content">
-                                        <span class="title">đầu tư chung - mua chung bđs</span><br><span class="content">tòa nhà khách sạn tm mct</span> 
+                                        <span class="title">đầu tư chung - mua chung bđs</span><br><span
+                                            class="content">tòa nhà khách sạn tm mct</span>
                                     </p>
                                 </div>
                             </div>
@@ -398,13 +435,14 @@
                                         <div class="text-center">
                                             <a href="#" class="detail-btn">XEM CHI TIẾT</a>
                                         </div>
-                                        <p class="pt-4">16 oceanfront luxury condominiums in Surfside, is the
+                                        <p class="pt-5">16 oceanfront luxury condominiums in Surfside, is the
                                             first-ever project in the United States by the legendary
                                             Italian architecture</p>
                                     </div>
                                     <img src="img/building-6.jpg" alt="">
                                     <p class="building-content">
-                                        <span class="title">đầu tư chung - mua chung bđs</span><br><span class="content">tòa nhà khách sạn tm mct</span> 
+                                        <span class="title">đầu tư chung - mua chung bđs</span><br><span
+                                            class="content">tòa nhà khách sạn tm mct</span>
                                     </p>
                                 </div>
                             </div>
@@ -416,13 +454,14 @@
                                         <div class="text-center">
                                             <a href="#" class="detail-btn">XEM CHI TIẾT</a>
                                         </div>
-                                        <p class="pt-4">16 oceanfront luxury condominiums in Surfside, is the
+                                        <p class="pt-5">16 oceanfront luxury condominiums in Surfside, is the
                                             first-ever project in the United States by the legendary
                                             Italian architecture</p>
                                     </div>
                                     <img src="img/building-7.jpg" alt="">
                                     <p class="building-content">
-                                        <span class="title">đầu tư chung - mua chung bđs</span><br><span class="content">tòa nhà khách sạn tm mct</span> 
+                                        <span class="title">đầu tư chung - mua chung bđs</span><br><span
+                                            class="content">tòa nhà khách sạn tm mct</span>
                                     </p>
                                 </div>
                             </div>
@@ -434,13 +473,14 @@
                                         <div class="text-center">
                                             <a href="#" class="detail-btn">XEM CHI TIẾT</a>
                                         </div>
-                                        <p class="pt-4">16 oceanfront luxury condominiums in Surfside, is the
+                                        <p class="pt-5">16 oceanfront luxury condominiums in Surfside, is the
                                             first-ever project in the United States by the legendary
                                             Italian architecture</p>
                                     </div>
                                     <img src="img/building-8.jpg" alt="">
                                     <p class="building-content">
-                                        <span class="title">đầu tư chung - mua chung bđs</span><br><span class="content">tòa nhà khách sạn tm mct</span> 
+                                        <span class="title">đầu tư chung - mua chung bđs</span><br><span
+                                            class="content">tòa nhà khách sạn tm mct</span>
                                     </p>
                                 </div>
                             </div>
@@ -451,18 +491,18 @@
             <div class="project-list">
                 <div class="container-fluid">
                     <div class="row g-0">
-                            <div class="project-top d-flex justify-content-between align-items-center">
-                                <div class="prev-next">
-                                    <i class="fa-solid fa-caret-left"></i>
-                                    <i class="fa-solid fa-caret-right"></i>
-                                </div>
-                                <div class="PRJ">
-                                    <h3 class="text-uppercase m-0">dự án</h3>
-                                </div>
-                                <div class="PRJ-more">
-                                    <p class="all-project m-0">xem tất cả các dự án</p>
-                                </div>
+                        <div class="project-top d-flex justify-content-between align-items-center">
+                            <div class="prev-next">
+                                <i class="fa-solid fa-caret-left"></i>
+                                <i class="fa-solid fa-caret-right"></i>
                             </div>
+                            <div class="PRJ">
+                                <h3 class="text-uppercase m-0">dự án</h3>
+                            </div>
+                            <div class="PRJ-more">
+                                <p class="all-project m-0">xem tất cả các dự án</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="project-bottom">
                         <div class="project-list-content">
@@ -472,28 +512,32 @@
                                         <img src="img/project-list-1.jpg" alt="" class="project-img">
                                         <div class="project-content">
                                             <h3 class="text-uppercase">dự án regal legend quảng bình</h3>
-                                            <p class="pt-3"><span class="fw-bold">Địa chỉ :</span> Đường Võ Nguyên Giáp, Xã Bảo Ninh, TP Đồng Hới, Tỉnh Quảng Bình</p>
+                                            <p class="pt-3"><span class="fw-bold">Địa chỉ :</span> Đường Võ Nguyên Giáp,
+                                                Xã Bảo Ninh, TP Đồng Hới, Tỉnh Quảng Bình</p>
                                             <p><span class="fw-bold">Giá từ :</span> 5-15 Tỷ</p>
                                             <p><span class="fw-bold">Chủ đầu tư :</span> Công ty CP BĐS Pindias</p>
-                                            <p><span class="fw-bold">Loại hình :</span> Nhà biệt thự, Liền kề, Căn hộ, Nhà phố thương mại...</p>
+                                            <p><span class="fw-bold">Loại hình :</span> Nhà biệt thự, Liền kề, Căn hộ,
+                                                Nhà phố thương mại...</p>
                                         </div>
                                         <a href="#" class="detail-btn">Xem chi tiết</a>
-                                    </div>  
+                                    </div>
                                 </div>
                                 <div class="col-6 position-relative">
                                     <div class="project-info project-info2 d-flex position-relative">
                                         <img src="img/project-list-2.jpg" alt="" class="project-img">
                                         <div class="project-content">
                                             <h3 class="text-uppercase">wonderland hồ tràm bà rịa vũng tàu</h3>
-                                            <p class="pt-3"><span class="fw-bold">Địa chỉ :</span> xã Bình Châu, huyện Xuyên Mộc, tỉnh Bà Rịa Vũng tàu</p>
+                                            <p class="pt-3"><span class="fw-bold">Địa chỉ :</span> xã Bình Châu, huyện
+                                                Xuyên Mộc, tỉnh Bà Rịa Vũng tàu</p>
                                             <p><span class="fw-bold">Giá từ :</span> 15,9-23,9 Tỷ</p>
                                             <p><span class="fw-bold">Chủ đầu tư :</span> Công ty CP BĐS Pindias</p>
-                                            <p><span class="fw-bold">Loại hình :</span> Nhà biệt thự, Liền kề, Căn hộ, Nhà phố thương mại...</p>
+                                            <p><span class="fw-bold">Loại hình :</span> Nhà biệt thự, Liền kề, Căn hộ,
+                                                Nhà phố thương mại...</p>
                                         </div>
                                         <a href="#" class="detail-btn">Xem chi tiết</a>
                                     </div>
                                 </div>
-                            </div>     
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -506,7 +550,9 @@
                                 <h3 class="text-uppercase m-0">tin tức</h3>
                             </div>
                             <div class="all-news">
-                            <a href="#"><h3 class="text-uppercase m-0">xem tất cả tin tức</h3></a> 
+                                <a href="#">
+                                    <h3 class="text-uppercase m-0">xem tất cả tin tức</h3>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -518,7 +564,16 @@
                                     <h3 class="content-title text-uppercase">
                                         RA MẮT NHÀ ở nghỉ dưỡng NẰM TẠI TRUNG TÂM SAPA JADE HILL
                                     </h3>
-                                    <p class="content-content position-relative">Sở hữu vị trí trung tâm quần thể nghỉ dưỡng núi cao cấp bậc nhất Việt Nam – Sapa Jade Hill, nhà phố thương mại The Central hứa hẹn tạo nên một không gian giao thương đậm chất văn hóa Sapa, hấp dẫn cả khách du lịch trong-ngoài nước và nhà đầu tư. Sức hấp dẫn của shophouse nằm trong khu nghỉ dưỡng. Trên thế giới và tại Việt Nam, loại hình shophouse đã bắt đầu trở nên quen thuộc và phổ biến từ nhiều năm nay. Với vị trí đắc địa, khả năng sinh lời tiềm năng, tính thanh khoản cao, số lượng hạn chế,… nhà phố thương mại luôn cho thấy sức hấp dẫn đặc biệt đối với các nhà đầu tư dù mức giá có phần đắt đỏ do khan hiếm về số lượng. Giá nhà phố thương mại cũng thường cao hơn giá bất động sản thông thường khoảng 20%...</p>
+                                    <p class="content-content position-relative">Sở hữu vị trí trung tâm quần thể nghỉ
+                                        dưỡng núi cao cấp bậc nhất Việt Nam – Sapa Jade Hill, nhà phố thương mại The
+                                        Central hứa hẹn tạo nên một không gian giao thương đậm chất văn hóa Sapa, hấp
+                                        dẫn cả khách du lịch trong-ngoài nước và nhà đầu tư. Sức hấp dẫn của shophouse
+                                        nằm trong khu nghỉ dưỡng. Trên thế giới và tại Việt Nam, loại hình shophouse đã
+                                        bắt đầu trở nên quen thuộc và phổ biến từ nhiều năm nay. Với vị trí đắc địa, khả
+                                        năng sinh lời tiềm năng, tính thanh khoản cao, số lượng hạn chế,… nhà phố thương
+                                        mại luôn cho thấy sức hấp dẫn đặc biệt đối với các nhà đầu tư dù mức giá có phần
+                                        đắt đỏ do khan hiếm về số lượng. Giá nhà phố thương mại cũng thường cao hơn giá
+                                        bất động sản thông thường khoảng 20%...</p>
                                     <div class="news-btn text-center">
                                         <a href="#" class="text-uppercase text-decoration-none">xem chi tiết</a>
                                     </div>
@@ -527,35 +582,38 @@
                         </div>
                         <div class="col-4 d-flex">
                             <div class="right d-flex flex-column justify-content-between">
-                                    <div class="col-12">
-                                        <div class="wrapper d-flex">
-                                            <img src="img/news-1-img.jpg" alt="" class="right-news-img">
-                                            <div class="wrapper-content">
-                                                <h3>Chất khoáng thiên nhiên trong biệt thự ở Quang Hanh, Tỉnh Phú Thọ</h3>
-                                                <p>Sở hữu vị trí trung tâm quần thể nghỉ dưỡng núi cao cấp bậc nhất ở Việt Nam - Sapa Jade Hill, nhà phố thương mại The Central...</p>
-                                            </div>
+                                <div class="col-12">
+                                    <div class="wrapper d-flex">
+                                        <img src="img/news-1-img.jpg" alt="" class="right-news-img">
+                                        <div class="wrapper-content">
+                                            <h3>Chất khoáng thiên nhiên trong biệt thự ở Quang Hanh, Tỉnh Phú Thọ</h3>
+                                            <p>Sở hữu vị trí trung tâm quần thể nghỉ dưỡng núi cao cấp bậc nhất ở Việt
+                                                Nam - Sapa Jade Hill, nhà phố thương mại The Central...</p>
                                         </div>
                                     </div>
-                                    <div class="col-12">
-                                        <div class="wrapper d-flex">
-                                            <img src="img/news-2-img.jpg" alt="" class="right-news-img">
-                                            <div class="wrapper-content">
-                                                <h3>Bất động sản hàng hiệu Tài sản ưa chuộng
-                                                    của giới siêu giàu</h3>
-                                                <p>Sở hữu vị trí trung tâm quần thể nghỉ dưỡng núi cao cấp bậc nhất ở Việt Nam - Sapa Jade Hill, nhà phố thương mại The Central...</p>
-                                            </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="wrapper d-flex">
+                                        <img src="img/news-2-img.jpg" alt="" class="right-news-img">
+                                        <div class="wrapper-content">
+                                            <h3>Bất động sản hàng hiệu Tài sản ưa chuộng
+                                                của giới siêu giàu</h3>
+                                            <p>Sở hữu vị trí trung tâm quần thể nghỉ dưỡng núi cao cấp bậc nhất ở Việt
+                                                Nam - Sapa Jade Hill, nhà phố thương mại The Central...</p>
                                         </div>
                                     </div>
-                                    <div class="col-12">
-                                        <div class="wrapper d-flex">
-                                            <img src="img/news-3-img.jpg" alt="" class="right-news-img">
-                                            <div class="wrapper-content">
-                                                <h3>Gem Sky World hưởng lợi từ quy hoạch
-                                                    'thành phố sân bay'</h3>
-                                                <p>Sở hữu vị trí trung tâm quần thể nghỉ dưỡng núi cao cấp bậc nhất ở Việt Nam - Sapa Jade Hill, nhà phố thương mại The Central...</p>
-                                            </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="wrapper d-flex">
+                                        <img src="img/news-3-img.jpg" alt="" class="right-news-img">
+                                        <div class="wrapper-content">
+                                            <h3>Gem Sky World hưởng lợi từ quy hoạch
+                                                'thành phố sân bay'</h3>
+                                            <p>Sở hữu vị trí trung tâm quần thể nghỉ dưỡng núi cao cấp bậc nhất ở Việt
+                                                Nam - Sapa Jade Hill, nhà phố thương mại The Central...</p>
                                         </div>
                                     </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -605,9 +663,10 @@
                 </div>
                 <div class="info-input-form">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Email của bạn..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <input type="text" class="form-control" placeholder="Email của bạn..."
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
                         <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-paper-plane"></i></span>
-                      </div>
+                    </div>
                 </div>
             </div>
             <div class="sub-footer">
@@ -710,14 +769,15 @@
                     </div>
                     <div class="col-4 infoo">
                         <ul class="fw-light">
-                            <li>Pindias.com is a proud part of Pindias Inc., a leading business  services company.</li>
-                            <li>Pindias.com is a Registered Trademark. © 2022 – 2025  All Rights Reserved</li>
+                            <li>Pindias.com is a proud part of Pindias Inc., a leading business services company.</li>
+                            <li>Pindias.com is a Registered Trademark. © 2022 – 2025 All Rights Reserved</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
+    </div>
     </div>
 </footer>
+
 </html>
